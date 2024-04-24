@@ -3,7 +3,7 @@
 // Declare known values.
 
 var radius = 3;
-var π = 3.14
+var π = 3.14;
 //var Math.pow = 2
 
 
