@@ -1,15 +1,21 @@
 "use strict";
 
-// known variables
+// Known variables.
 
-let payRate = 17.30;
-let hoursWorked = 45;
-
+var payRate = 12.50;
+var hoursWorked = 20;
+var overTimePay = payRate * 1.5;
 let pay;
-let overtimePay;
+let overHoursPay;
 
-if (hoursWorked > 40){
-    overtimePay = (payRate * 1.5) * (hoursWorked-40);
+// If statement.
 
-    pay = (payRate * 40) + overtimePay;
+if (hoursWorked > 40) {
+    overHoursPay = hoursWorked - 40
+    pay = payRate * 40 + overHoursPay * overTimePay
 }
+
+else if ( hoursWorked <= 40 ) {
+    pay = payRate * hoursWorked
+}   
+    console.log(" The gross pay is " + pay)
