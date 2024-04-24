@@ -4,7 +4,7 @@
 
 var foodBill = 60.98;
 
-var tipPercentage = 20%;
+var tipPercentage = .20;
 
 // calculations
 

@@ -13,6 +13,6 @@ howManyBoxesToBuy = Math.ceil(roomLength * roomWidth / tilesPerBox);
 
 // Display the results.
 var message = "For a " + roomLength + "x" + roomWidth 
-+ "room (" roomLength * roomWidth + "sqft) you need to purchase " + howManyBoxesToBuy + " box";
++ " room (" + roomLength * roomWidth + "sqft) you need to purchase " + howManyBoxesToBuy + " box.";
 
 console.log(message);
