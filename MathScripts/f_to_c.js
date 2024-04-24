@@ -10,6 +10,6 @@ var celsius;
 celsius = (fahrenheit - 32) * ( 5 / 9);
 
 // Display the results.
-var message = fahrenheit + "F is " celsius + "C";
+var message = fahrenheit + "F is " + celsius + "C";
 
 console.log(message);

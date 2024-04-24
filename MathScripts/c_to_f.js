@@ -12,6 +12,6 @@ fahrenheit = (celsius * (9/5) + 32);
 
 
 // Display the results.
-var message = celsius + "C is " fahrenheit + "F";
+var message = celsius + "C is " + fahrenheit + "F";
 
 console.log(message);

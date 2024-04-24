@@ -12,5 +12,7 @@ var tipAmount = foodBill * tipPercentage;
 
 // output
 
-console.log(tipAmount);
+var message = "The tip on a " + foodBill + " food bill is " + tipAmount;
+
+console.log(message);
 
