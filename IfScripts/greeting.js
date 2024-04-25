@@ -1,7 +1,7 @@
 "use strict";
 
 // what do we start with?
-let currentHour = 9;
+let currentHour = 25;
 
 
 
