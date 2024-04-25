@@ -10,27 +10,27 @@ let majorName;
 let departmentOffice;
 
 
-if ( studentName == "BIOL"){
+if ( studentMajor == "BIOL"){
     majorName = "Biology";
     departmentOffice = "Science Building, Room 310";
 }
 
-if ( studentName == "CSCI"){
+if ( studentMajor == "CSCI"){
     majorName = "Computer Science";
     departmentOffice = "Sheppard Hall, Room 314";
 }
 
-if ( studentName == "ENG"){
+if ( studentMajor == "ENG"){
     majorName = "not_yet_supported";
     departmentOffice = "not_yet_supported";
 }
 
-if ( studentName == "HIST"){
+if ( studentMajor == "HIST"){
     majorName = "not_yet_supported";
     departmentOffice = "not_yet_supported";
 }
 
-if ( studentName == "MKT"){
+if ( studentMajor == "MKT"){
     majorName = "not_yet_supported";
     departmentOffice = "not_yet_supported";
 }
