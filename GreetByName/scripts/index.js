@@ -11,7 +11,7 @@ function init(){
 
 
 function onGreetUserBtnClicked(){
-    const nameFe
+    const nameField
     alert
     console.log
 
